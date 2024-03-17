@@ -263,6 +263,9 @@
         <img src="./assets/images/pipeline.png"
             class="interpolation-image"
             alt="Interpolate start reference image."/>
+        <!-- <p>
+          This image shows the data collection pipeline for our proposed Real-IAD dataset, which consists of four steps in tandem: (a) Material preparation and defect manufacturing. (b) Prototype design and construction that contains 5 shots for capturing multi-view images simultaneously, i.e., one top-down camera with extra four cameras arranged uniformly at 45 degrees. (c) Collection procedure that includes cyclical processes of data collection, annotation, and cleaning. At the bottom, partial visualization of the final Real-IAD dataset reveals that the proposed Real-IAD exhibits large scale (30 classes), a wide range of defect proportions (0.01% to 6.75%), and a broad defect ratio (1:1 to 1:10), indicating that Real-IAD is highly challenging. Abnormal areas are prominently marked in red.
+        </p> -->
       </div>
     </div>
 
@@ -270,9 +273,20 @@
       <div class="column is-full-width">
         <h2 class="title is-3">Contribution</h2>
         <div class="content has-text-justified">
-          <p>
+          <ul>
+            <li>
+              This paper introduces a new dataset, named <strong>Real-IAD</strong>, which is over ten times larger than existing mainstream datasets. It comprises 30 categories of objects, each captured from 5 different angles, totaling 150K high-resolution images. Real-IAD features a larger defect area and a wider range of defect ratios, enabling a more effective differentiation of the performance of various methods, and catering to a variety of research settings in IAD.
+            </li>
+            <li>
+              Furthermore, a <strong>Fully Unsupervised Industry Anomaly Detection (FUIAD)</strong> setup, which is closer to real-world application scenarios, has been constructed based on the Real-IAD. This setup only uses the naturally occurring constraints where the yield rate of most production lines is greater than 60%, without introducing additional manual annotations.
+            </li>
+            <li>
+              We report the performance of common IAD methods on the Real-IAD dataset under several settings, and provide a <strong>highly challenging benchmark</strong> to promote the development of the anomaly detection field.
+            </li>
+          </ul>
+          <!-- <p>
             This paper introduces a new dataset, Real-IAD, which is over ten times larger than existing mainstream datasets. It comprises 30 categories of objects, each captured from 5 different angles, totaling 150K high-resolution images. Real-IAD features a larger defect area and a wider range of defect ratios, enabling a more effective differentiation of the performance of various methods, and catering to a variety of research settings in IAD. Furthermore, a Fully Unsupervised Industry Anomaly Detection (FUIAD) setup, which is closer to real-world application scenarios, has been constructed based on the Real-IAD dataset. This setup only uses the naturally occurring constraints where the yield rate of most production lines is greater than 60%, without introducing additional manual annotations. We report the performance of common IAD methods on the Real-IAD dataset under several settings, and provide a highly challenging benchmark to promote the development of the anomaly detection field.
-          </p>
+          </p> -->
         </div>
       </div>
     </div>
@@ -301,9 +315,12 @@
 
     <div class="columns is-centered interpolation-panel">
       <div class="column is has-text-centered">
-        <img src="./assets/images/RIAD_view.svg"
+        <img src="./assets/images/RIAD_view.png"
             class="interpolation-image"
-            alt="Interpolate start reference image."/>
+            alt="Interpolate start reference image." width="160" height="150"/>
+        <p>
+          <strong>The visualization of multi-view collections, abnormal are highlighted, normal are displayed with normal brightness.</strong>
+        </p>
       </div>
     </div>
 

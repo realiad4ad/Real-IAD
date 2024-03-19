@@ -96,15 +96,15 @@
         <div class="column has-text-centered">
           <h1 class="title is-1 publication-title">Real-IAD: A Real-World Multi-View Dataset for Benchmarking Versatile Industrial Anomaly Detection</h1>
           <div class="is-size-5 publication-authors">
-            <span class="author-block"> <a href="#">Chengjie Wang</a><sup>1,2</sup>, </span>
-            <span class="author-block"> <a href="#">Wenbing Zhu</a><sup>3,4</sup>, </span>
-            <span class="author-block"> <a href="#">Binbin Gao</a><sup>2</sup>, </span>
-            <span class="author-block"> <a href="#">Zhenye Gan</a><sup>2</sup>, </span>
-            <span class="author-block"> <a href="#">Jiangning Zhang</a><sup>2</sup>, </span>
-            <span class="author-block"> <a href="#">Zhihao Gu</a><sup>1</sup>, </span>
+            <span class="author-block"> <a href="https://scholar.google.com/citations?user=fqte5H4AAAAJ&hl=zh-CN&oi=ao">Chengjie Wang</a><sup>1,2</sup>, </span>
+            <span class="author-block"> <a href="https://scholar.google.com/citations?user=58aMZ6oAAAAJ&hl=zh-CN&oi=ao">Wenbing Zhu</a><sup>3,4</sup>, </span>
+            <span class="author-block"> <a href="https://scholar.google.com/citations?user=yYviZ-oAAAAJ&hl=zh-CN&oi=ao">Binbin Gao</a><sup>2</sup>, </span>
+            <span class="author-block"> <a href="https://scholar.google.com/citations?user=fa4NkScAAAAJ&hl=zh-CN&oi=ao">Zhenye Gan</a><sup>2</sup>, </span>
+            <span class="author-block"> <a href="https://zhangzjn.github.io">Jiangning Zhang</a><sup>2</sup>, </span>
+            <span class="author-block"> <a href="https://scholar.google.com/citations?user=TBlEbQIAAAAJ&hl=zh-CN&oi=ao">Zhihao Gu</a><sup>1</sup>, </span>
             <span class="author-block"> <a href="#">Shuguang Qian</a><sup>4</sup>, </span>
-            <span class="author-block"> <a href="#">Mingang Chen</a><sup>5</sup>, </span>
-            <span class="author-block"> <a href="#">Lizhuang Ma</a><sup>1</sup>, </span>
+            <span class="author-block"> <a href="https://scholar.google.com/citations?user=FBfC58EAAAAJ&hl=zh-CN&oi=ao">Mingang Chen</a><sup>5</sup>, </span>
+            <span class="author-block"> <a href="https://scholar.google.com/citations?user=yd58y_0AAAAJ&hl=zh-CN&oi=ao">Lizhuang Ma</a><sup>1</sup>, </span>
           </div>
 
           <div class="is-size-5 publication-authors">
@@ -148,7 +148,7 @@
               </span> -->
               <!-- Code Link. -->
               <span class="link-block">
-                <a href="#"
+                <a href="https://github.com/TencentYoutuResearch/AnomalyDetection_Real-IAD"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
@@ -158,12 +158,12 @@
               </span>
               <!-- Dataset Link. -->
               <!-- <span class="link-block">
-                <a href="https://github.com/google/nerfies/releases/tag/0.1"
+                <a href="#"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="far fa-images"></i>
                   </span>
-                  <span>Data</span>
+                  <span>Download</span>
                   </a>
               </span> -->
             </div>
@@ -175,12 +175,26 @@
   </div>
 </section>
 
-<section class="section">
+<!-- <section class="section">
   <div class="container is-max-desktop">
-    <!-- Abstract. -->
+    <div class="columns is-centered interpolation-panel">
+      <div class="column is has-text-centered">
+        <img src="./assets/images/sample_data.png"
+            class="interpolation-image"
+            alt="Interpolate start reference image."/>
+        <img src="./assets/images/sample_data2.png"
+        class="interpolation-image"
+        alt="Interpolate start reference image."/>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<!-- <section class="section">
+  <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
+        <h2 class="title is-3">Download Real-IAD</h2>
         <div class="content has-text-justified">
           <p>
             Industrial anomaly detection (IAD) has garnered significant attention and experienced rapid development. However, the recent development of IAD approach has encountered certain difficulties due to dataset limitations. On the one hand, most of the state-of-the-art methods have achieved saturation (over 99\% in AUROC) on mainstream datasets such as MVTec, and the differences of methods cannot be well distinguished, leading to a significant gap between public datasets and actual application scenarios. On the other hand, the research on various new practical anomaly detection settings is limited by the scale of the dataset, posing a risk of overfitting in evaluation results. Therefore, we propose a large-scale, Real-world, and multi-view Industrial Anomaly Detection dataset, named Real-IAD, which contains 150K high-resolution images of 30 different objects, an order of magnitude larger than existing datasets. It has a larger range of defect area and ratio proportions, making it more challenging than previous datasets. To make the dataset closer to real application scenarios, we adopted a multi-view shooting method and proposed sample-level evaluation metrics. In addition, beyond the general unsupervised anomaly detection setting, we propose a new setting for Fully Unsupervised Industrial Anomaly Detection (FUIAD) based on the observation that the yield rate in industrial production is usually greater than 60\%, which has more practical application value. Finally, we report the results of popular IAD methods on the Real-IAD dataset, providing a highly challenging benchmark to promote the development of the IAD field. The dataset and evaluation code will be open-sourced in the future. 
@@ -188,71 +202,63 @@
         </div>
       </div>
     </div>
-    <!--/ Abstract. -->
-
-    <!-- Paper video. -->
-    <!-- <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Video</h2>
-        <div class="publication-video">
-          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
-                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div> -->
-    <!--/ Paper video. -->
   </div>
-</section>
+</section> -->
 
+<!-- <section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Dataset Download</h2>
+        <p>
+
+        </p>
+      </div>
+    </div>
+  </div>
+</section> -->
 
 <section class="section">
   <div class="container is-max-desktop">
-    <!-- Motivation. -->
-    <!-- <div class="columns is-centered">
+    <div class="columns is-centered">
       <div class="column is-full-width">
-        <h2 class="title is-3">Motivation & Comparison with SoTAs on MUAD Setting</h2>
+        <h2 class="title is-3">Dataset Download</h2>
         <div class="content has-text-justified">
           <p>
-            Existing reconstruction-based methods typically adopt pyramid networks as encoders/decoders to obtain multi-resolution features, accompanied by elaborate sub-modules with heavier handcraft engineering designs for more precise localization. <br>
-            1. We first abstract a Meta-AD concept by inducing current reconstruction-based methods. <br>
-            2. Then, we instantiate a novel ViT-based ViTAD structure, effectively designed step by step from global and local perspectives. <br>
-            3. Based on a naive training recipe (only MSE loss), ViTAD achieves SoTA results and efficiency on MVTec AD, VisA, and Uni-Medical datasets.
+            Coming Soon...
           </p>
         </div>
-        <div class="columns is-centered interpolation-panel">
-          <div class="column is has-text-centered">
-            <img src="./assets/images/motivation_radar.png"
-                class="interpolation-image"
-                alt="Interpolate start reference image."/>
-          </div>
+        <h2 class="title is-3">Dataset Organization</h2>
+        <div class="content has-text-justified">
+          <p>
+            Updating...
+          </p>
+          <p>
+            The Real-IAD dataset originates from a real production line, encompassing steps such as Material Preparation, Prototype Construction, Data Collection, Annotation, and Cleaning.
+          </p>
         </div>
-        <div class="columns is-centered interpolation-panel">
-          <div class="column is-8 has-text-centered">
-            <img src="./assets/images/efficiency.png"
-                class="interpolation-image"
-                alt="Interpolate start reference image."/>
-            <p>Start Frame</p>
-          </div>
+        <h2 class="title is-3">Collection Pipeline of Real-IAD</h2>
+        <div class="content has-text-justified">
+          <p>
+            Updating...
+          </p>
         </div>
+        <img src="./assets/images/pipeline.png"
+            class="interpolation-image"
+            alt="Interpolate start reference image."/>
       </div>
-    </div> -->
-    <div class="columns is-centered">
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">    
+    <!-- <div class="columns is-centered">
       <div class="column is-full-width">
         <h2 class="title is-3">Motivation</h2>
         <div class="content has-text-justified">
           <p>
             Due to limitations in the dataset, the development of Industrial Anomaly Detection (IAD) methods has encountered certain difficulties in recent years. On one hand, most state-of-the-art methods have already reached saturation (AUROC exceeding 99%) on mainstream datasets such as MVTec-AD, making it challenging to differentiate between methods and resulting in a significant gap between public datasets and real-world application scenarios (<strong>More challenging datasets are needed to support further research in the AD field</strong>). On the other hand, research on various new practical anomaly detection settings is constrained by the dataset size, which poses a risk of overfitting evaluation results (<strong>Larger-scale datasets are needed</strong>). Furthermore, in industrial production, the yield rate typically ranges from 60% to 100%, which contradicts the existing experimental settings with 100% yield rate (<strong>Settings that are more aligned with practical application value are required</strong>).
-            <!-- <ul>
-              <li>
-                On one hand, most state-of-the-art methods have already reached saturation (AUROC exceeding 99%) on mainstream datasets such as MVTec-AD, making it challenging to differentiate between methods and resulting in a significant gap between public datasets and real-world application scenarios (<strong>More challenging datasets are needed to support further research in the AD field</strong>). 
-              </li>
-              <li>
-                On the other hand, research on various new practical anomaly detection settings is constrained by the dataset size, which poses a risk of overfitting evaluation results (<strong>Larger-scale datasets are needed</strong>). 
-              </li>
-              <li>
-                Furthermore, in industrial production, the yield rate typically ranges from 60% to 100%, which contradicts the existing experimental settings with 100% yield rate (<strong>Settings that are more aligned with practical application value are required</strong>).
-              </li>
-            </ul> -->
           </p>
         </div>
       </div>
@@ -263,9 +269,6 @@
         <img src="./assets/images/pipeline.png"
             class="interpolation-image"
             alt="Interpolate start reference image."/>
-        <!-- <p>
-          This image shows the data collection pipeline for our proposed Real-IAD dataset, which consists of four steps in tandem: (a) Material preparation and defect manufacturing. (b) Prototype design and construction that contains 5 shots for capturing multi-view images simultaneously, i.e., one top-down camera with extra four cameras arranged uniformly at 45 degrees. (c) Collection procedure that includes cyclical processes of data collection, annotation, and cleaning. At the bottom, partial visualization of the final Real-IAD dataset reveals that the proposed Real-IAD exhibits large scale (30 classes), a wide range of defect proportions (0.01% to 6.75%), and a broad defect ratio (1:1 to 1:10), indicating that Real-IAD is highly challenging. Abnormal areas are prominently marked in red.
-        </p> -->
       </div>
     </div>
 
@@ -284,12 +287,9 @@
               We report the performance of common IAD methods on the Real-IAD dataset under several settings, and provide a <strong>highly challenging benchmark</strong> to promote the development of the anomaly detection field.
             </li>
           </ul>
-          <!-- <p>
-            This paper introduces a new dataset, Real-IAD, which is over ten times larger than existing mainstream datasets. It comprises 30 categories of objects, each captured from 5 different angles, totaling 150K high-resolution images. Real-IAD features a larger defect area and a wider range of defect ratios, enabling a more effective differentiation of the performance of various methods, and catering to a variety of research settings in IAD. Furthermore, a Fully Unsupervised Industry Anomaly Detection (FUIAD) setup, which is closer to real-world application scenarios, has been constructed based on the Real-IAD dataset. This setup only uses the naturally occurring constraints where the yield rate of most production lines is greater than 60%, without introducing additional manual annotations. We report the performance of common IAD methods on the Real-IAD dataset under several settings, and provide a highly challenging benchmark to promote the development of the anomaly detection field.
-          </p> -->
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="columns is-centered">
       <div class="column is-full-width">
@@ -297,23 +297,29 @@
       </div>
     </div>
 
-    <div class="columns is-centered interpolation-panel">
+    <!-- <div class="columns is-centered interpolation-panel">
       <div class="column is has-text-centered">
         <img src="./assets/images/RIAD_detail.svg"
             class="interpolation-image"
             alt="Interpolate start reference image."/>
       </div>
-    </div>
+    </div> -->
 
     <div class="columns is-centered interpolation-panel">
       <div class="column is has-text-centered">
+        <img src="./assets/images/sample_data.png"
+            class="interpolation-image"
+            alt="Interpolate start reference image."/>
+        <img src="./assets/images/sample_data2.png"
+          class="interpolation-image"
+          alt="Interpolate start reference image."/>
         <img src="./assets/images/RIAD_detail2.svg"
             class="interpolation-image"
             alt="Interpolate start reference image."/>
       </div>
     </div>
 
-    <div class="columns is-centered interpolation-panel">
+    <!-- <div class="columns is-centered interpolation-panel">
       <div class="column is has-text-centered">
         <img src="./assets/images/RIAD_view.png"
             class="interpolation-image"
@@ -322,9 +328,9 @@
           <strong>The visualization of multi-view collections, abnormal are highlighted, normal are displayed with normal brightness.</strong>
         </p>
       </div>
-    </div>
+    </div> -->
 
-    <div class="columns is-centered">
+    <!-- <div class="columns is-centered">
       <div class="column is-full-width">
         <h2 class="title is-3">FUIAD Setting</h2>
         <div class="content has-text-justified">
@@ -355,7 +361,7 @@
             class="interpolation-image"
             alt="Interpolate start reference image."/>
       </div>
-    </div>
+    </div> -->
 
     <!--/ Motivation. -->
     <!-- <div class="columns is-centered">

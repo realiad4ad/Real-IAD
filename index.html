@@ -39,6 +39,11 @@
   <script src="./assets/js/bulma-carousel.min.js"></script>
   <script src="./assets/js/bulma-slider.min.js"></script>
   <script src="./assets/js/index.js"></script>
+  <script>
+    function preventClick(event) {
+      event.preventDefault();
+    }
+  </script>
 </head>
 <body>
 
@@ -225,7 +230,7 @@
         <h2 class="title is-3">Dataset Download</h2>
         <div class="content has-text-justified">
           <p>
-            If you are interested in using the dataset, please send an email to realiad4ad@outlook.com from your affiliation email address. In your email, kindly provide us with the necessary information for the application. Once we receive your email, we will respond with a download link and password. Thank you for your interest and cooperation. We hope you have a pleasant experience using our dataset! A recommended application email format is provided in <a href="https://raw.githubusercontent.com/realiad4ad/Real-IAD/main/format.txt">here</a>.
+            If you are interested in using the dataset, please send an email to <a href="", onclick="preventClick(event)">realiad4ad@outlook.com</a> from your affiliation email address. In your email, kindly provide us with the necessary information for the application. Once we receive your email, we will respond with a download link and password. Thank you for your interest and cooperation. We hope you have a pleasant experience using our dataset! A recommended application email format is provided in <a href="https://raw.githubusercontent.com/realiad4ad/Real-IAD/main/format.txt">here</a>.
           </p>
         </div>
         <h2 class="title is-3">Dataset Organization</h2>

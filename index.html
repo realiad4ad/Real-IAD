@@ -47,7 +47,7 @@
 </head>
 <body>
 
-<nav class="navbar" role="navigation" aria-label="main navigation">
+<!-- <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
       <span aria-hidden="true"></span>
@@ -57,24 +57,24 @@
   </div>
   <div class="navbar-menu">
     <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
-      <!-- <a class="navbar-item" href="https://keunhong.com">
+      <a class="navbar-item" href="https://keunhong.com">
       <span class="icon">
-          <i class="fas fa-home"></i> -->
+          <i class="fas fa-home"></i>
       </span>
       </a>
       <div class="navbar-item has-dropdown is-hoverable">
-        <!-- <a class="navbar-link">
+        <a class="navbar-link">
           More Researches
-        </a> -->
-        <!-- <div class="navbar-dropdown"> -->
+        </a>
+        <div class="navbar-dropdown">
         <a class="navbar-navbar">
-          <!-- <a class="navbar-item" href="https://zhangzjn.github.io" style="color: #b02418; font-weight: bold; background-color: #e7bcb9;"> -->
-          <!-- <a class="navbar-item" href="https://zhangzjn.github.io/#-publications" style="color: #b02418; font-weight: bold;">
+          <a class="navbar-item" href="https://zhangzjn.github.io" style="color: #b02418; font-weight: bold; background-color: #e7bcb9;">
+          <a class="navbar-item" href="https://zhangzjn.github.io/#-publications" style="color: #b02418; font-weight: bold;">
             More Researches
-          </a> -->
+          </a>
         </a>
         <div class="navbar">
-          <!-- <a class="navbar-item" href="https://zhangzjn.github.io/projects/ViTAD" style="color: #6a99d0; font-weight: bold; background-color: #dce3f2;"> 
+          <a class="navbar-item" href="https://zhangzjn.github.io/projects/ViTAD" style="color: #6a99d0; font-weight: bold; background-color: #dce3f2;"> 
             ViTAD
           </a>
           <a class="navbar-item" href="https://zhangzjn.github.io/projects/InvAD">
@@ -82,16 +82,16 @@
           </a>
           <a class="navbar-item" href="https://lewandofskee.github.io/projects/diad/">
             DiAD
-          </a> -->
-          <!-- <a class="navbar-item" href="https://zhangzjn.github.io/projects/ViTAD">
+          </a>
+          <a class="navbar-item" href="https://zhangzjn.github.io/projects/ViTAD">
             ViTAD
-          </a> -->
+          </a>
         </div>
       </div>
     </div>
 
   </div>
-</nav>
+</nav> -->
 
 
 <section class="hero">
@@ -132,25 +132,6 @@
                   <span>Paper</span>
                 </a>
               </span>
-              <!-- <span class="link-block">
-                <a href="https://arxiv.org/abs/2011.12948"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span> -->
-              <!-- Video Link. -->
-              <!-- <span class="link-block">
-                <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fab fa-youtube"></i>
-                  </span>
-                  <span>Video</span>
-                </a>
-              </span> -->
               <!-- Code Link. -->
               <span class="link-block">
                 <a href="https://github.com/TencentYoutuResearch/AnomalyDetection_Real-IAD"
@@ -161,16 +142,6 @@
                   <span>Code</span>
                   </a>
               </span>
-              <!-- Dataset Link. -->
-              <!-- <span class="link-block">
-                <a href="#"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="far fa-images"></i>
-                  </span>
-                  <span>Download</span>
-                  </a>
-              </span> -->
             </div>
 
           </div>
@@ -179,49 +150,6 @@
     </div>
   </div>
 </section>
-
-<!-- <section class="section">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered interpolation-panel">
-      <div class="column is has-text-centered">
-        <img src="./assets/images/sample_data.png"
-            class="interpolation-image"
-            alt="Interpolate start reference image."/>
-        <img src="./assets/images/sample_data2.png"
-        class="interpolation-image"
-        alt="Interpolate start reference image."/>
-      </div>
-    </div>
-  </div>
-</section> -->
-
-<!-- <section class="section">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Download Real-IAD</h2>
-        <div class="content has-text-justified">
-          <p>
-            Industrial anomaly detection (IAD) has garnered significant attention and experienced rapid development. However, the recent development of IAD approach has encountered certain difficulties due to dataset limitations. On the one hand, most of the state-of-the-art methods have achieved saturation (over 99\% in AUROC) on mainstream datasets such as MVTec, and the differences of methods cannot be well distinguished, leading to a significant gap between public datasets and actual application scenarios. On the other hand, the research on various new practical anomaly detection settings is limited by the scale of the dataset, posing a risk of overfitting in evaluation results. Therefore, we propose a large-scale, Real-world, and multi-view Industrial Anomaly Detection dataset, named Real-IAD, which contains 150K high-resolution images of 30 different objects, an order of magnitude larger than existing datasets. It has a larger range of defect area and ratio proportions, making it more challenging than previous datasets. To make the dataset closer to real application scenarios, we adopted a multi-view shooting method and proposed sample-level evaluation metrics. In addition, beyond the general unsupervised anomaly detection setting, we propose a new setting for Fully Unsupervised Industrial Anomaly Detection (FUIAD) based on the observation that the yield rate in industrial production is usually greater than 60\%, which has more practical application value. Finally, we report the results of popular IAD methods on the Real-IAD dataset, providing a highly challenging benchmark to promote the development of the IAD field. The dataset and evaluation code will be open-sourced in the future. 
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section> -->
-
-<!-- <section class="section">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Dataset Download</h2>
-        <p>
-
-        </p>
-      </div>
-    </div>
-  </div>
-</section> -->
 
 <section class="section">
   <div class="container is-max-desktop">
@@ -273,14 +201,6 @@
       </div>
     </div>
 
-    <!-- <div class="columns is-centered interpolation-panel">
-      <div class="column is has-text-centered">
-        <img src="./assets/images/RIAD_detail.svg"
-            class="interpolation-image"
-            alt="Interpolate start reference image."/>
-      </div>
-    </div> -->
-
     <div class="columns is-centered interpolation-panel">
       <div class="column is has-text-centered">
         <img src="./assets/images/sample_data.png"
@@ -294,170 +214,22 @@
             alt="Interpolate start reference image."/>
       </div>
     </div>
-
-    <!-- <div class="columns is-centered interpolation-panel">
-      <div class="column is has-text-centered">
-        <img src="./assets/images/RIAD_view.png"
-            class="interpolation-image"
-            alt="Interpolate start reference image." width="160" height="150"/>
-        <p>
-          <strong>The visualization of multi-view collections, abnormal are highlighted, normal are displayed with normal brightness.</strong>
-        </p>
-      </div>
-    </div> -->
-
-    <!-- <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">FUIAD Setting</h2>
-        <div class="content has-text-justified">
-          <p>
-            In this study, we propose Fully Unsupervised Industry Anomaly Detection (FUIAD) which is closer to real-world application scenarios, and the benchmark has been constructed based on the Real-IAD dataset.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Results of Experiments</h2>
-      </div>
-    </div>
-
-    <div class="columns is-centered interpolation-panel">
-      <div class="column is has-text-centered">
-        <img src="./assets/images/FUIAD_res.svg"
-            class="interpolation-image"
-            alt="Interpolate start reference image."/>
-      </div>
-    </div>
-
-    <div class="columns is-centered interpolation-panel">
-      <div class="column is has-text-centered">
-        <img src="./assets/images/UIAD_res.svg"
-            class="interpolation-image"
-            alt="Interpolate start reference image."/>
-      </div>
-    </div> -->
-
-    <!--/ Motivation. -->
-    <!-- <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Motivation & Comparison</h2>
-        <div class="content has-text-justified">
-          
-        </div>
-        <div class="columns is-centered interpolation-panel">
-          <div class="column is has-text-centered">
-            <img src="./assets/images/motivation_radar.png"
-                class="interpolation-image"
-                alt="Interpolate start reference image."/>
-          </div>
-        </div>
-        <div class="columns is-centered interpolation-panel">
-          <div class="column is-8 has-text-centered">
-            <img src="./assets/images/efficiency.png"
-                class="interpolation-image"
-                alt="Interpolate start reference image."/>
-            <p>Start Frame</p>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
-    <!-- Method. -->
-    <!-- <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Meta-AD ===> ViTAD </h2>
-        <div class="content has-text-justified">
-          <p>
-            <strong>Left:</strong> Illustration of abstracted Meta-AD. <strong>Right:</strong> Details of instantiated plain ViT-based ViTAD.
-          </p>
-        </div>
-        <div class="columns is-centered interpolation-panel">
-          <div class="column is has-text-centered">
-            <img src="./assets/images/metaad.png"
-                class="interpolation-image"
-                alt="Interpolate start reference image."/>
-          </div>
-          <div class="column is has-text-centered">
-            <img src="./assets/images/vitad.png"
-                class="interpolation-image"
-                alt="Interpolate start reference image."/>
-          </div>
-        </div>
-      </div>
-    </div> -->
-    <!--/ Method. -->
-
-    <!-- Experiments. -->
-    <!-- <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Experiments on MVTec-AD </h2>
-        <div class="content has-text-justified"> </div>
-        <div class="columns is-centered interpolation-panel">
-          <div class="column is has-text-centered">
-            <img src="./assets/images/mvtec_image.png"
-                class="interpolation-image"
-                alt="Interpolate start reference image."/>
-          </div>
-        </div>
-        <div class="columns is-centered interpolation-panel">
-          <div class="column is has-text-centered">
-            <img src="./assets/images/mvtec_pixel.png"
-                class="interpolation-image"
-                alt="Interpolate start reference image."/>
-          </div>
-        </div>
-
-        <h2 class="title is-3">Experiments on VisA </h2>
-        <div class="content has-text-justified"> </div>
-        <div class="columns is-centered interpolation-panel">
-          <div class="column is has-text-centered">
-            <img src="./assets/images/visa.png"
-                class="interpolation-image"
-                alt="Interpolate start reference image."/>
-          </div>
-        </div>
-        
-        <h2 class="title is-3">Experiments on Uni-Medical </h2>
-        <div class="content has-text-justified"> </div>
-        <div class="columns is-centered interpolation-panel">
-          <div class="column is has-text-centered">
-            <img src="./assets/images/medical.png"
-                class="interpolation-image"
-                alt="Interpolate start reference image."/>
-          </div>
-        </div>
-
-        <h2 class="title is-3">Qualitative Results on MVTec AD, VisA, and Uni-Medical </h2>
-        <div class="content has-text-justified"> </div>
-        <div class="columns is-centered interpolation-panel">
-          <div class="column is has-text-centered">
-            <img src="./assets/images/qualitative.png"
-                class="interpolation-image"
-                alt="Interpolate start reference image."/>
-          </div>
-        </div>
-
-      </div>
-    </div> -->
-    <!--/ Experiments. -->
 </div>
 </section>
 
 
 <section class="section" id="BibTeX">
-  <!-- <div class="container is-max-desktop content">
+  <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
     <pre><code>
-      @article{vitad,
-        title={Exploring Plain ViT Reconstruction for Multi-class Unsupervised Anomaly Detection},
-        author={Jiangning Zhang and Xuhai Chen and Yabiao Wang and Chengjie Wang and Yong Liu and Xiangtai Li and Ming-Hsuan Yang and Dacheng Tao},
-        journal={arXiv preprint arXiv:2312.07495},
-        year={2023}
+      @article{wang2024real,
+        title={Real-IAD: A Real-World Multi-View Dataset for Benchmarking Versatile Industrial Anomaly Detection},
+        author={Wang, Chengjie and Zhu, Wenbing and Gao, Bin-Bin and Gan, Zhenye and Zhang, Jianning and Gu, Zhihao and Qian, Shuguang and Chen, Mingang and Ma, Lizhuang},
+        journal={arXiv preprint arXiv:2403.12580},
+        year={2024}
       }
     </code></pre>
-  </div> -->
+  </div>
 </section>
 
 

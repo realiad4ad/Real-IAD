@@ -152,7 +152,9 @@
 </section>
 
 <section class="section">
+  
   <div class="container is-max-desktop">
+
     <div class="columns is-centered">
       <div class="column is-full-width">
         <h2 class="title is-3">Dataset Download</h2>
@@ -174,8 +176,8 @@
           <img src="./assets/images/email_format.png"
             class="interpolation-image"
             alt="Interpolate start reference image."/> 
-          <p>Specific explanation about the anomaly classes in Real-IAD: </p>
-          <ul>
+          
+          <!-- <ul>
             <li>"<span style="font-weight: bold">AK</span>" refers to "<span style="font-weight: bold">pit</span>" in English.</li>
             <li>"<span style="font-weight: bold">BX</span>" refers to "<span style="font-weight: bold">deformation</span>" in English.</li>
             <li>"<span style="font-weight: bold">CH</span>" refers to "<span style="font-weight: bold">abrasion</span>" in English.</li>
@@ -184,9 +186,74 @@
             <li>"<span style="font-weight: bold">QS</span>" refers to "<span style="font-weight: bold">missing parts</span>" in English.</li>
             <li>"<span style="font-weight: bold">YW</span>" refers to "<span style="font-weight: bold">foreign objects</span>" in English.</li>
             <li>"<span style="font-weight: bold">ZW</span>" refers to "<span style="font-weight: bold">contamination</span>" in English.</li>
-          </ul>
+          </ul> -->
         </div>
+      </div>
+    </div>
 
+    <style>
+      table {
+        width: 70%;
+        border-collapse: collapse;
+      }
+      
+      table, th, td {
+        /* border: 1px solid black; */
+        padding: 10px;
+        text-align: left;
+      }
+      
+      tr:nth-child(odd) {
+        background-color: #f2f2f2;
+      }
+    </style>
+    <div class="content has-text-justified">
+      <p>The correspondence between the code (represented by the folder name) and the defect type:</p>
+    </div>
+    
+    <table>
+      <tr>
+        <th>Code (Folder Name)</th>
+        <th>Defect Type</th> 
+      </tr>
+      <tr>
+        <td>AK</td>
+        <td>pit</td> 
+      </tr>
+      <tr>
+        <td>BX</td>
+        <td>deformation</td>
+      </tr>
+      <tr>
+        <td>CH</td>
+        <td>abrasion</td>
+      </tr>
+      <tr>
+        <td>HS</td>
+        <td>scratch</td>
+      </tr>
+      <tr>
+        <td>PS</td>
+        <td>damage</td>
+      </tr>
+      <tr>
+        <td>QS</td>
+        <td>missing parts</td>
+      </tr>
+      <tr>
+        <td>YW</td>
+        <td>foreign objects</td>
+      </tr>
+      <tr>
+        <td>ZW</td>
+        <td>contamination</td>
+      </tr>
+    </table>
+
+    <div class="columns is-centered"></div>
+
+    <div class="columns is-centered">
+      <div class="column is-full-width">
         <h2 class="title is-3">Collection Pipeline of Real-IAD</h2>
         <div class="content has-text-justified">
           <p>
@@ -198,8 +265,8 @@
             class="interpolation-image"
             alt="Interpolate start reference image."/>
       </div>
-      
     </div>
+
   </div>
 </section>
 
